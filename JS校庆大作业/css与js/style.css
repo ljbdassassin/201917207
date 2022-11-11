@@ -1,0 +1,40 @@
+*{
+            margin:0;
+            padding: 0;
+        }
+        ul{
+            width: 1200px;
+            height: 40px;
+            /*background-color: green;*/
+            margin: auto;
+
+        }
+        ul li1{
+            list-style: none;
+            width: 240px;
+            height: 40px;
+            float: contour;
+            /*background-color: purple;*/
+            text-align: center;
+            line-height: 40px;
+        }
+        ul li1 a{
+            width: 240px;
+            height: 40px;
+            display: inline-block;
+        }
+
+        ul li1 a:link{
+            background-color: #bbd3f1;
+            color: orange;
+            text-decoration: none;
+        }
+
+        ul li1 a:hover{
+            color: orange;
+            background-color: #03f5f5;
+        }
+        ul li1 a:active{
+            color: yellow;
+
+        }
